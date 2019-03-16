@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="CSS/styles.css" rel="stylesheet" type="text/css">
-    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="icon" type="image/png" href="https://img.icons8.com/dusk/48/000000/test-passed.png" sizes="48x48">
 </head>
 <body>
@@ -26,6 +26,8 @@
             <div class="inputboxes">
                 <input autofocus type="text" name="name" id="name" class="input-box" aria-describedby="name" placeholder="Enter full name" required>
             </div>
+        </div>
+        <br>
             <div class="itemRows">
             <div class="labels">
                 <label id="email-label" for="email">* Email:
@@ -34,38 +36,77 @@
             <div class="inputboxes">
                 <input autofocus type="email" name="email" id="email" class="input-box" aria-describedby="emailadress" placeholder="Enter email address" required> 
             </div>
+        </div>
+        <br>
             <div class="itemRows">
                 <div class="labels">
                     <label id="number-label" for="months">* Months Coding:
                     </label>
                 </div>
                 <div class="inputboxes">
-                    <input autofocus type="number" name="months coding" id="number" min="1" max="780" class="input-box" aria-describedby="codemonths" placeholder="Enter months coding" required>
+                    <input autofocus type="number" name="months" id="number" min="1" max="780" class="input-box" aria-describedby="codemonths" placeholder="Months" required>
                 </div>
             </div>
-
-            
+            <br>
+            <div class="itemRows">
+                <div class="labels">
+                    <label for="Opinion">
+                        Which option describes how you feel about the <i class="fab fa-free-code-camp"></i> curriculum so far?
+                    </label>
+                </div>
+                <div class="inputboxes">
+                    <select id="dropdown" name="Opinion" class="opinionDropdown" required>
+                        <option value="I Love It!">Love It</option>
+                        <option value="It's Ok">Just Okay</option>
+                        <option value="Don't Like It">Hate It</option>
+                        <option value="Undecided">Undecided</option>  
+                    </select>
                 </div>
             </div>
-
-
+            <br>
+            <div class="itemRows">
+                <div class="labels">
+                    <label for="helpers">Things that help you get better at coding<br>(Check all that apply):
+                    </label><br>
+                </div>
+                <div class="inputboxes">
+                        <input type="checkbox" name="option1" value="1"> Practice<br>
+                        <input type="checkbox" name="option2" value="2"> Coding Challenges<br>
+                        <input type="checkbox" name="option3" value="3"> Pair Programming<br>
+                        <input type="checkbox" name="option4" value="4"> Tutorials<br>
+                        <input type="checkbox" name="option5" value="5"> Projects<br>
+                        <input type="checkbox" name="option6" value="6"> Music<br>
+                        <input type="checkbox" name="option7" value="7"> Meetups<br>
+                        <input type="checkbox" name="option8" value="8"> Books<br>
+                        <input type="checkbox" name="option9" value="9"> Articles<br>
+                        <input type="checkbox" name="option10" value="10"> Other<br>
+                </div>
+            </div>
+            <br>
+            <div class="itemRows">
+                <div class="labels">
+                    <label for="finish">Will you finish the <i class="fab fa-free-code-camp"></i> curriculum?
+                    </label><br>
+                </div>
+                <div class="inputboxes">
+                <input type="radio" name="finish" value="yes"> Yes<br>
+                <input type="radio" name="finish" value="no"> No<br>
+                </div>
+            </div>
+            <br>
+            <div class="itemRows">
+                    <div class="labels">
+                        <label for="comments">Comments and Suggestions</label><br>
+                    </div>
+                    <div class="inputboxes">
+                     <textarea rows="5" cols="50" class="inputboxes" name="comments" placeholder="Enter comments here">
+                        </textarea>
+                        <br>
+             <button type="submit" id="submit">Submit</button>   
            </div> 
-
-
         </form>
-
     </div>
-
-
-
-
-
-
-
-
-
-
-
+    <br>
     <div class="footer-info">
     <footer>
         <div class="copyright">
