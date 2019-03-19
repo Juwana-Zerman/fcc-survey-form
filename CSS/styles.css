@@ -6,6 +6,7 @@ body {
     margin: auto;
     text-align: center;
     min-width: 320px;
+    font-weight: bold;
 }
 
 #title {
@@ -15,7 +16,7 @@ body {
 }
 
 .surveybox {
-    background: #e1e4ea;
+    background: #d3c4ce;        /*#dad2d9;*/
     border: 2px solid black;
     font-size: medium;
     margin: auto;
@@ -48,8 +49,22 @@ i {
     padding: 5px 5px;
 }
 
-.inputboxes {
-    
+.labels {
+    display: inline-block;
+    text-align: right;
+    margin-top: 5px;
+    vertical-align: top;
 }
 
+#helpbox {
+    display: inline-block;
+    text-align: justify;
+}
 
+button {
+    color: white;
+    background-color:  #6617cb;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 24px;
+}
