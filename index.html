@@ -14,19 +14,22 @@
     <div>
         <h1 id="title" class="fcctitle">FCC Learning Survey Form</h1>
     </div>
-    <div class="information">
+    <div id="form-outside" class="information">
         <p id="description" class="formDescription">Let us know what tools are helpful for your learning journey</p>
-    </div>
+    
     <div class="surveybox">
         <form id="survey-form">
            <div class="itemRows">
             <div class="labels">
                 <label id="name-label" for="name">* Name:
                 </label>
+                
             </div>
+            
             <div class="inputboxes">
                 <input autofocus type="text" name="name" id="name" class="input-box" aria-describedby="name" placeholder="Enter full name" required>
             </div>
+            
         </div>
         <br>
             <div class="itemRows">
@@ -34,9 +37,11 @@
                 <label id="email-label" for="email">* Email:
                 </label>
             </div>
+            
             <div class="inputboxes">
                 <input autofocus type="email" name="email" id="email" class="input-box" aria-describedby="emailadress" placeholder="Enter email address" required> 
             </div>
+            
         </div>
         <br>
             <div class="itemRows">
@@ -44,17 +49,20 @@
                     <label id="number-label" for="months">* Months Coding:
                     </label>
                 </div>
+                
                 <div class="inputboxes">
                     <input autofocus type="number" name="months" id="number" min="1" max="780" class="input-box" aria-describedby="codemonths" placeholder="Months" required>
                 </div>
+                
             </div>
-            <br>
+            
             <div class="itemRows">
                 <div class="labels">
                     <label for="Opinion">
                         Which option describes how you feel about the <i class="fab fa-free-code-camp"></i> curriculum so far?
                     </label>
                 </div>
+                <br>
                 <div class="inputboxes">
                     <select id="dropdown" name="Opinion" class="opinionDropdown" required>
                         <option value="I Love It!">Love It</option>
@@ -70,6 +78,7 @@
                     <label for="helpers">Things that help you get better at coding<br>(Check all that apply):
                     </label><br>
                 </div>
+                <br>
                 <div class="inputboxes">
                         <input type="checkbox" name="option1" value="1"> Practice<br>
                         <input type="checkbox" name="option2" value="2"> Coding Challenges<br>
@@ -81,23 +90,33 @@
                         <input type="checkbox" name="option8" value="8"> Books<br>
                         <input type="checkbox" name="option9" value="9"> Articles<br>
                         <input type="checkbox" name="option10" value="10"> Other<br>
+                        <br>
                 </div>
+            
             </div>
             <br>
             <div class="itemRows">
+                
                 <div class="labels">
                     <label for="finish">Will you finish the <i class="fab fa-free-code-camp"></i> curriculum?
-                    </label><br>
+                    </label>
+                    <br> 
                 </div>
+                <br>
+            
                 <div class="inputboxes">
+                    
                 <input type="radio" name="finish" value="yes"> Yes<br>
                 <input type="radio" name="finish" value="no"> No<br>
+                <br>
                 </div>
+                <br>
             </div>
             <br>
             <div class="itemRows">
                     <div class="labels">
-                        <label for="comments">Comments and Suggestions</label><br>
+                        <label for="comments">Comments and Suggestions</label>
+                        <br>
                     </div>
                     <br>
                     <div class="inputboxes">
@@ -106,6 +125,7 @@
                         <br>
              <button type="submit" id="submit">Submit</button>   
            </div> 
+           <br>
         </form>
     </div>
     <br>
@@ -116,6 +136,7 @@
         </div>
       </footer>
       </div>
+    </div>
       <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 </html>
