@@ -76,3 +76,64 @@ button {
     border: 2px solid #5e5b5e;
     border-radius: 4px;
 }
+
+@media screen and (min-width: 750px) {
+    .input-box {
+      width: 100%;
+      padding-left: 10px;
+    }
+    select {
+      width: 100%;
+    }
+    .surveybox {
+        width: 100%;
+        font-size: 16px;
+    }
+    .inputboxes {
+        padding-left: 9px;
+    }
+  }
+  
+  @media screen and (max-width: 520px) {
+    .labels {
+      width: 100%;
+      text-align: left;
+    }
+    .inputboxes {
+      width: 80%;
+      float: left;
+    }
+    .input-box {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 450px) {
+    .surveybox {
+        width: 100%;
+        font-size: 14px;
+    }
+    .input-box {
+        width: 100%;
+    }
+    button {
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .inputboxes {
+        width: 90%;
+        padding-left: 8px;
+    }
+    #helpbox {
+        font-size: 13px;
+    }
+    #number-label {
+        font-size: 13px;
+        text-align: left;
+    }
+    .labels {
+        text-align: left;
+    }
+}
